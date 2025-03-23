@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      nav {
+         border: 1px solid black;
+         padding: 20px;
+         background-color: aqua;
+      }
+      button {
+        border: 1px solid black;
+         padding: 20px;
+         background-color:beige;
+      }
+   </style>
+   <script>
+      function NavClick(){
+         alert("Navbar Clicked");
+      }
+      function SearchClick(e){
+         e.stopPropagation();
+         alert("Search Clicked");
+      }
+   </script>
+</head>
+<body>
+   <nav onclick="NavClick()">
+       <h2>Navbar</h2>
+       <button onclick="SearchClick(event)">Search</button>
+   </nav>
+</body>
+</html>

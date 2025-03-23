@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userid": "john_nit",
+      "password": "john@nit",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "2",
+      "userid": "david",
+      "password": "david11",
+      "email": "david@outlook.com"
+    },
+    {
+      "id": "3",
+      "userid": "Jimmay Page",
+      "password": "jimmy123",
+      "email": "jimmy@outlook.com"
+    },
+    {
+      "id": "f602",
+      "userid": "veeresh04",
+      "password": "login123",
+      "email": "veeresh@gmail.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "title": "Friend Birthday",
+      "date": "2025-03-22",
+      "userid": "john_nit"
+    },
+    {
+      "id": "2",
+      "title": "Submit Project Document",
+      "date": "2025-03-18",
+      "userid": "david"
+    },
+    {
+      "id": "9f51",
+      "title": "Interview with Synachron at 8 pm",
+      "date": "2025-03-24",
+      "userid": "veeresh04"
+    },
+    {
+      "id": "7ec9",
+      "title": "Test App",
+      "date": "2025-03-29",
+      "userid": "veeresh04"
+    },
+    {
+      "id": "d4ae",
+      "title": "Test App for John NIT",
+      "date": "2025-03-26",
+      "userid": "john_nit"
+    }
+  ]
+}

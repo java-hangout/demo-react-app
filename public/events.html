@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script>
+      function DetailsClick(obj, e, ...product){
+         var [id, name, rating] = product;
+         document.write(`
+               Button Id : ${obj.id} <br>
+               X Position: ${e.clientX} <br>
+               Product Id : ${id} <br>
+               Name : ${name} <br>
+               Rating : ${rating.rate}
+         `);
+      }
+   </script>
+</head>
+<body>
+   <button onclick="DetailsClick(this, event, 1, 'TV', {rate:4.5})" id="btnDetails">Details</button>
+</body>
+</html>
